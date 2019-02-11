@@ -1,8 +1,8 @@
 @charset 'UTF-8';
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(http://fonts.googleapis.com/css?family=Cutive);
-@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
-@import url(http://fonts.googleapis.com/css?family=IBM+Plex+Mono);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(//fonts.googleapis.com/css?family=Cutive);
+@import url(//fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(//fonts.googleapis.com/css?family=IBM+Plex+Mono);
 
 @font-face {
 	font-family: 'FontAwesome';
@@ -38,7 +38,7 @@ h2 {
 }
 
 #header .monospace {
-	font-size: 13pt;
+	font-size: 20pt;
 }
 
 #intro .fancy {
