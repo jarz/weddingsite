@@ -62,7 +62,7 @@ h2 {
 }
 
 #mobile_bar {
-	background-color: rgba(28, 22, 34, 0.952941);
+	background-color: rgba(99, 00, 00, 0.952941);
 	padding: 0px 0px 15px 0px;
 }
 
@@ -2413,8 +2413,8 @@ table.default tfoot {
 	left: 0;
 	top: 0;
 	width: 100%;
-	background: #282234;
-	background: rgba(28, 22, 34, 0.95);
+	background: #990000;
+	background: rgba(99, 00, 00, 0.95);
 	height: 3em;
 	line-height: 3em;
 	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -2645,7 +2645,8 @@ body {
 	height: 5em;
 	line-height: 5em;
 	margin: 0;
-	background: #282234;
+	background: #990000;
+	background: rgba(99, 00, 00, 0.95);
 	color: #999;
 	color: rgba(185, 186, 187, 0.5);
 	overflow: hidden;
@@ -2850,4 +2851,5 @@ body.touch .poptrox-popup .nav-next,
 body.touch .poptrox-popup .nav-previous,
 body.touch .poptrox-popup .closer {
 	opacity: 1.0 !important;
+}nt;
 }
