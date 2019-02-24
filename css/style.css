@@ -546,7 +546,7 @@ table.default tfoot {
 
 .main.style1 {
 	text-align: center;
-	padding: 10em 0 10em 0;
+	/*padding: 10em 0 10em 0;*/
 }
 
 .main.style1 h2 {
@@ -556,9 +556,9 @@ table.default tfoot {
 }
 
 .main.style1 .content {
-	width: 30%;
+/*	width: 30%;
 	margin-right: 0%;
-	opacity: 1.0;
+*/	opacity: 1.0;
 
 	-moz-transition: all 1s ease;
 	-webkit-transition: all 1s ease;
@@ -2473,7 +2473,7 @@ body {
 	background: url('images/overlay.png'), url('../images/IMG_1269.jpg');
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
-	background-position: 0%, 30%;
+	background-position: 0%, 45%;
 	background-repeat: repeat, no-repeat;
 }
 
