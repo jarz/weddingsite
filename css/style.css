@@ -73,7 +73,7 @@ h2 {
 
 #intro a {
 	text-decoration: none;
-	color: #664AAC;
+	color: rgba(99, 00, 00, 0.95);
 	text-shadow: 0px 0px 10px #FFF;
 
 }
@@ -2481,8 +2481,8 @@ body {
 /* Our story                                                                         */
 /*********************************************************************************/
 
-#story {
-	background: url('images/overlay.png'), url('../images/ourstory.jpg');
+#details {
+	background: url('images/overlay.png'), url('../images/3502554274_1a0a367319_b.jpg');
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: 20% 0%;
@@ -2851,5 +2851,4 @@ body.touch .poptrox-popup .nav-next,
 body.touch .poptrox-popup .nav-previous,
 body.touch .poptrox-popup .closer {
 	opacity: 1.0 !important;
-}nt;
 }
