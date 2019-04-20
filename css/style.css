@@ -2489,18 +2489,16 @@ body {
 }
 
 /*********************************************************************************/
-/* Ceremony main page section                                                                  */
+/* about                                                                  */
 /*********************************************************************************/
 
-#ceremony_main {
-	background: url('images/overlay.png'), url('../images/arboretum_path.jpg');
+#aboutus {
+	background: url('images/overlay.png'), url('../images/IMG_0021.jpg');
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
-	background-position: top left, center center;
+	background-position: 0%, 45%;
+	background-repeat: repeat, no-repeat;
 }
-
-
-
 
 /*********************************************************************************/
 /* Registry                                                                  */

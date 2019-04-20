@@ -197,17 +197,6 @@
 																}
 												});
 
-										// Contact
-											$('#contact')
-												.scrollwatch({
-													delay:		25,
-													range:		0.5,
-													anchor:		'center',
-													init:		function(t) { t.addClass('inactive'); },
-													on:			function(t) { t.removeClass('inactive'); },
-													off:		function(t) { t.addClass('inactive'); }
-												});
-
 										// Force scroll event
 											window.setTimeout(function() {
 												$window
@@ -234,13 +223,7 @@
 									// Work
 										$('.animated')
 											.unscrollwatch()
-											.find('.row.images').removeClass('inactive');
-
-									// Contact
-										$('#contact')
-											.unscrollwatch()
-											.removeClass('inactive');
-								
+											.find('.row.images').removeClass('inactive');								
 								}
 
 							}
