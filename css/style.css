@@ -669,6 +669,42 @@ table.default tfoot {
 	background: #A399BD;
 }
 
+.main.style5 {
+	text-align: center;
+	padding: 6em 0.5em 6em 0.5em;
+}
+
+.main.style5.primary {
+	background: #DBD7E5;
+}
+
+.main.style5.secondary {
+	background: #A399BD;
+}
+
+.main.style5 .content.left {
+	float: left;
+	left: 5%;
+	width: 50%;
+}
+
+.main.style5 .content.right {
+	float: right;
+	left: 50%;
+	width: 50%;
+}
+
+.row {
+	display: flex; /* equal height of the children */
+  }
+  
+  .col {
+	flex: 1; /* additionally, equal width */
+	
+	padding: 1em;
+	border: solid;
+  }
+
 
 /* Dark */
 
@@ -2547,6 +2583,14 @@ body {
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: 0%, 0%;
+	background-repeat: repeat, no-repeat;
+}
+
+#thingsToDo {
+	background: url('images/overlay.png'), url('../images/Indianapolis_banner.jpg');
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: 0%, 50%;
 	background-repeat: repeat, no-repeat;
 }
 
