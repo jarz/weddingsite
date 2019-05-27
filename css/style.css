@@ -615,9 +615,29 @@ table.default tfoot {
 	left: 100%;
 }
 
+.main.style4 .content.left {
+	float: left;
+	left: 0;
+	width: 40%;
+}
+
+.main.style4 .content.right {
+	float: right;
+	left: 40%;
+	width: 60%;
+}
+
+.main.style4.inactive .content.left {
+	left: -40%;
+}
+
+.main.style4.inactive .content.right {
+	left: 100%;
+}
+
 .main.style3 {
 	text-align: center;
-	padding: 6em 0 6em 0;
+	padding: 6em 0.5em 6em 0.5em;
 }
 
 .main.style3 .content>header {
