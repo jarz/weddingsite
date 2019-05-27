@@ -623,8 +623,8 @@ table.default tfoot {
 
 .main.style4 .content.right {
 	float: right;
-	left: 40%;
-	width: 60%;
+	left: 50%;
+	width: 50%;
 }
 
 .main.style4.inactive .content.left {
@@ -651,6 +651,24 @@ table.default tfoot {
 .main.style3.secondary {
 	background: #A399BD;
 }
+
+
+.main.style4 {
+	padding: 6em 0.5em 6em 0.5em;
+}
+
+.main.style4 .content>header {
+	margin-bottom: 2em;
+}
+
+.main.style4.primary {
+	background: #DBD7E5;
+}
+
+.main.style4.secondary {
+	background: #A399BD;
+}
+
 
 /* Dark */
 
@@ -2517,6 +2535,18 @@ body {
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: 0%, 45%;
+	background-repeat: repeat, no-repeat;
+}
+
+/*********************************************************************************/
+/* about                                                                  */
+/*********************************************************************************/
+
+#staying {
+	background: url('images/overlay.png'), url('../images/8397756056_db4a6cc686_o.jpg');
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: 0%, 0%;
 	background-repeat: repeat, no-repeat;
 }
 
