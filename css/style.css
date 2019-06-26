@@ -89,7 +89,6 @@ body.loading * {
 	-ms-transition: none !important;
 	transition: none !important;
 }
-
 body,
 input,
 textarea,
@@ -196,6 +195,11 @@ footer {
 
 br.clear {
 	clear: both;
+}
+
+.hidden {
+	visibility: hidden !important;
+	display: none !important;
 }
 
 /* Sections/Articles */
@@ -2610,7 +2614,8 @@ body {
 /*********************************************************************************/
 
 #rsvp {
-	background: url('images/overlay.png'), url('../images/waterfall.jpg');
+	/* background: url('images/overlay.png'), url('../images/waterfall.jpg'); */
+	background: url('images/overlay.png');
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top center;
@@ -2943,4 +2948,24 @@ body.touch .poptrox-popup .nav-next,
 body.touch .poptrox-popup .nav-previous,
 body.touch .poptrox-popup .closer {
 	opacity: 1.0 !important;
+}
+
+#rsvp-form {
+	display: table;
+	width: 100%
+}
+
+#rsvp-form > div {
+	display: table-row;
+}
+
+#rsvp-form > div > input[type="text"] {
+	display: table-cell;
+	float: left;
+	width: 45%
+}
+
+#rsvp-form > div > button {
+	display: table-cell;
+	font-size: 20px;
 }
