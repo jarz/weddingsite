@@ -147,56 +147,51 @@
 		</header>
 		<form role="form" id="rsvp-form">
 			<div id="name1">
-				<!-- <label for="firstname1">First Name</label>> -->
 				<input type="text" name="firstname1" placeholder="First Name" />
-
-				<!-- <label for="lastname1">Last Name</label> -->
 				<input type="text" name="lastname1" placeholder="Last Name" />
 
-				<button type="button" class="btn btn-default" id="add2">+</button>
+				<div>
+				<a class="button" id="add2">+</a>
+				</div>
 			</div>
 
-			<div id="name2" class="hidden rsvp-name">
-				<!-- <label for="firstname2">First Name</label> -->
+			<div id="name2" class="hidden">
 				<input type="text" name="firstname2" id="firstname2" placeholder="First Name" />
-
-				<!-- <label for="lastname2">Last Name</label> -->
 				<input type="text" name="lastname2" id="lastname2" placeholder="Last Name" />
 
-				<button type="button" class="btn btn-default" id="rm2">-</button>&nbsp;
-				<button type="button" class="btn btn-default" id="add3">+</button>
+				<div>
+				<a class="button" id="rm2">-</a>&nbsp;
+				<a class="button" id="add3">+</a>
+				</div>
 			</div>
 
 			<div id="name3" class="hidden">
-				<!-- <label for="firstname3">First Name</label> -->
 				<input type="text" name="firstname3" id="firstname3" placeholder="First Name" />
-
-				<!-- <label for="lastname3">Last Name</label> -->
 				<input type="text" name="lastname3" id="lastname3" placeholder="Last Name" />
 
-				<button type="button" class="btn btn-default" id="rm3">-</button>&nbsp;
-				<button type="button" class="btn btn-default" id="add4">+</button>
+				<div>
+				<a class="button" id="rm3">-</a>&nbsp;
+				<a class="button" id="add4">+</a>
+				</div>
 			</div>
 
 			<div id="name4" class="hidden">
-				<!-- <label for="firstname4">First Name</label> -->
 				<input type="text" name="firstname4" id="firstname4" placeholder="First Name" />
-
-				<!-- <label for="lastname4">Last Name</label> -->
 				<input type="text" name="lastname4" id="lastname4" placeholder="Last Name" />
 
-				<button type="button" class="btn btn-default" id="rm4">-</button>&nbsp;
-				<button type="button" class="btn btn-default" id="add5">+</button>
+				<div>
+				<a class="button" id="rm4">-</a>&nbsp;
+				<a class="button" id="add5">+</a>
+				</div>
 			</div>
 
 			<div id="name5" class="hidden">
-				<!-- <label for="firstname5">First Name</label> -->
 				<input type="text" name="firstname5" id="firstname5" placeholder="First Name" />
-
-				<!-- <label for="lastname5">Last Name</label> -->
 				<input type="text" name="lastname5" id="lastname5" placeholder="Last Name" />
 
-				<button type="button" class="btn btn-default" id="rm5">-</button>
+				<div>
+				<a class="button" id="rm5">-</a>
+				</div>
 			</div>
 
 			<br />
@@ -224,9 +219,10 @@
 					<label>Anything we can do to make you dance?</label>
 					<textarea name="etc"></textarea>
 				</div>
+				<br />
 			</div>
 
-			<button type="submit" class="btn btn-default" disabled="disabled" id="postForm" style="font-size: 20px">Submit</button>
+			<button type="submit" class="button hidden" disabled="disabled" id="postForm" style="font-size: 20px">Submit</button>
 		</form>
 
 		<div class="hidden" id="rsvp-thank-you">

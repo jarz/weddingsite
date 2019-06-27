@@ -31,7 +31,7 @@ $(document).ready(function() {
     $('#add2').click(function(e){
         e.preventDefault();
         $('#name2').removeClass('hidden');
-        $('#add2').attr("disabled", true);
+        $('#add2').addClass("hidden");
     });
 
     $('#rm2').click(function(e){
@@ -39,14 +39,14 @@ $(document).ready(function() {
         $('#name2').addClass('hidden');
         $('#firstname2').val('');
         $('#lastname2').val('');
-        $('#add2').attr("disabled", false);
+        $('#add2').removeClass('hidden');
     });
 
     $('#add3').click(function(e){
         e.preventDefault();
         $('#name3').removeClass('hidden');
-        $('#add3').attr("disabled", true);
-        $('#rm2').attr("disabled", true);
+        $('#add3').addClass('hidden');
+        $('#rm2').addClass('hidden');
     });
 
     $('#rm3').click(function(e){
@@ -54,15 +54,15 @@ $(document).ready(function() {
         $('#name3').addClass('hidden');
         $('#firstname3').val('');
         $('#lastname3').val('');
-        $('#add3').attr("disabled", false);
-        $('#rm2').attr("disabled", false);
+        $('#add3').removeClass('hidden');
+        $('#rm2').removeClass('hidden');
     });
 
     $('#add4').click(function(e){
         e.preventDefault();
         $('#name4').removeClass('hidden');
-        $('#add4').attr("disabled", true);
-        $('#rm3').attr("disabled", true);
+        $('#add4').addClass('hidden');
+        $('#rm3').addClass('hidden');
     });
 
     $('#rm4').click(function(e){
@@ -70,15 +70,15 @@ $(document).ready(function() {
         $('#name4').addClass('hidden');
         $('#firstname4').val('');
         $('#lastname4').val('');
-        $('#add4').attr("disabled", false);
-        $('#rm3').attr("disabled", false);
+        $('#add4').removeClass('hidden');
+        $('#rm3').removeClass('hidden');
     });
 
     $('#add5').click(function(e){
         e.preventDefault();
         $('#name5').removeClass('hidden');
-        $('#add5').attr("disabled", true);
-        $('#rm4').attr("disabled", true);
+        $('#add5').addClass('hidden');
+        $('#rm4').addClass('hidden');
     });
 
     $('#rm5').click(function(e){
@@ -86,12 +86,12 @@ $(document).ready(function() {
         $('#name5').addClass('hidden');
         $('#firstname5').val('');
         $('#lastname5').val('');
-        $('#add5').attr("disabled", false);
-        $('#rm4').attr("disabled", false);
+        $('#add5').removeClass('hidden');
+        $('#rm4').removeClass('hidden');
     });
 
     $('input[type=radio][name=attending]').change(function() {
-        $('#postForm').attr("disabled", false);
+        $('#postForm').removeClass('hidden');
 
         if (this.value === 'YES') {
             $('#addl').removeClass('hidden');

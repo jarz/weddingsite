@@ -454,16 +454,16 @@ table.default tfoot {
 /* Buttons */
 
 .button {
-	background-color: #98c593;
+	background-color: #990000;
 	border: 0;
-	border-radius: 3.5em;
+	border-radius: 2em;
 	color: #fff;
 	cursor: pointer;
 	display: inline-block;
-	height: 3.5em;
-	line-height: 3.5em;
+	height: 2em;
+	line-height: 2em;
 	outline: 0;
-	padding: 0 2em 0 2em;
+	padding: 0 1em 0 1em;
 	position: relative;
 	text-align: center;
 	text-decoration: none;
@@ -507,11 +507,11 @@ table.default tfoot {
 }
 
 .button:hover {
-	background-color: #a8d5a3;
+	background-color: #BB0000;
 }
 
 .button:active {
-	background-color: #88b583;
+	background-color: #770000;
 }
 
 .button.style2 {
