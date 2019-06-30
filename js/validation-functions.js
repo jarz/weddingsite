@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#rsvp-form').submit(function(e) {
+    $('#rsvp-form').click(function(e) {
         // Prevent form submission
         e.preventDefault();
 
