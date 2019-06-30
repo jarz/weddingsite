@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#rsvp-form').click(function(e) {
+    $('#rsvp-form').submit(function(e) {
         // Prevent form submission
         e.preventDefault();
 
@@ -92,6 +92,7 @@ $(document).ready(function() {
 
     $('input[type=radio][name=attending]').change(function() {
         $('#postForm').removeClass('hidden');
+        $('#postForm').removeAttr('disabled');
 
         if (this.value === 'YES') {
             $('#addl').removeClass('hidden');
