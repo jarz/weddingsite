@@ -649,7 +649,7 @@ table.default tfoot {
 }
 
 .main.style3.primary {
-	background: #DBD7E5;
+	background: rgba(99, 00, 00, 0.25);
 }
 
 .main.style3.secondary {
